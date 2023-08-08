@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Nour-Al-Quran/static/css/main.9331c714.css",
+    "main.js": "/Nour-Al-Quran/static/js/main.21339cec.js",
+    "static/media/intro.mp4": "/Nour-Al-Quran/static/media/intro.d70ea4c02f63b4ef1806.mp4",
+    "static/media/kids.jpg": "/Nour-Al-Quran/static/media/kids.aacf4e14cff15217e6a6.jpg",
+    "static/media/slider1.jpg": "/Nour-Al-Quran/static/media/slider1.b652243ee4a55cb8b119.jpg",
+    "static/media/slider2.jpg": "/Nour-Al-Quran/static/media/slider2.a2d27316e204e062b6e0.jpg",
+    "static/media/slider5.jpg": "/Nour-Al-Quran/static/media/slider5.6e2e3ddf507070494b1a.jpg",
+    "static/media/slider3.jpg": "/Nour-Al-Quran/static/media/slider3.5d991129aefe5f083598.jpg",
+    "static/media/slider4.jpg": "/Nour-Al-Quran/static/media/slider4.000a493db9449126a02a.jpg",
+    "static/media/arabic-language.jpg": "/Nour-Al-Quran/static/media/arabic-language.8f6d089a0312448d8536.jpg",
+    "static/media/islamic.png": "/Nour-Al-Quran/static/media/islamic.41dfc2961d8be525e010.png",
+    "static/media/memorization.jpg": "/Nour-Al-Quran/static/media/memorization.c138996c20dd9cc2912d.jpg",
+    "static/media/qur.jpg": "/Nour-Al-Quran/static/media/qur.b6e945fa7e1414b0ca32.jpg",
+    "static/media/islamic-studies.jpg": "/Nour-Al-Quran/static/media/islamic-studies.0a5cfd3f0d4bd78998c1.jpg",
+    "static/media/poster.jpg": "/Nour-Al-Quran/static/media/poster.3ed3696982ded727d230.jpg",
+    "static/media/arabic.png": "/Nour-Al-Quran/static/media/arabic.84ad149ae72c7a7dcc1f.png",
+    "static/media/recitation.jpg": "/Nour-Al-Quran/static/media/recitation.73e32ee02eb5255484c4.jpg",
+    "static/media/ijazah.jpeg": "/Nour-Al-Quran/static/media/ijazah.2420fddf384d3c0e6fd3.jpeg",
+    "static/media/Logo.png": "/Nour-Al-Quran/static/media/Logo.fcc98f3ed921caf1d727.png",
+    "static/media/instagram.svg": "/Nour-Al-Quran/static/media/instagram.2b1ee55f7750fb04949879e793a277a6.svg",
+    "index.html": "/Nour-Al-Quran/index.html",
+    "static/media/mail.svg": "/Nour-Al-Quran/static/media/mail.e1bc2ceb745debf9361ad2160a79823a.svg",
+    "main.9331c714.css.map": "/Nour-Al-Quran/static/css/main.9331c714.css.map",
+    "main.21339cec.js.map": "/Nour-Al-Quran/static/js/main.21339cec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9331c714.css",
+    "static/js/main.21339cec.js"
+  ]
+}
