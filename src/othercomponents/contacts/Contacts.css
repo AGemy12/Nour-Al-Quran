@@ -1,0 +1,49 @@
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+.cont-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.cont-us a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+    transition: var(--main-transition);
+    background: var(--alt-color);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    background: #fff;
+}
+.cont-us svg {
+    font-size: 25px;
+    transition: var(--main-transition);
+}
+.cont-us img {
+    width: 25px;
+    transition: var(--main-transition);
+}
+.cont-us:hover svg, 
+.cont-us:hover img {
+    transform: rotate(360deg);
+}
+.contacts-facebook svg {
+    color: var(--alt-color);
+}
+.contacts-whatsapp svg {
+    color: green;
+}
+.contacts-twitter svg {
+    color: var(--alt-color);
+}
+
+@media screen and (max-width: 992px) {
+    .contacts {
+        display: none;
+    }
+}

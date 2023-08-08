@@ -1,0 +1,34 @@
+.contact-scroll {
+    position: sticky;
+    top: calc(100vh - 100px);
+    width: 60px;
+    height: 60px;
+    margin: 0 50px 0 auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.contact-scroll a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-scroll a svg {
+    color: green;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-scroll {
+        width: 30px;
+        height: 30px;
+        margin: 0 0px 0 auto;
+    }
+    .contact-scroll svg {
+        width: 25px;
+    }
+}

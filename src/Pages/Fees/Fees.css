@@ -1,0 +1,67 @@
+.fees {
+    margin: 50px 0;
+}
+.fees h2 {
+    padding: 10px 40px !important;
+}
+.fees-text {
+    padding: 20px;
+}
+.fees-text p {
+    font-size: 25px;
+}
+.fees-method {
+    padding: 20px;
+    transition: var(--main-transition);
+    margin-left: 50px;
+    border: 1px solid var(--alt-color);
+    margin-bottom: 10px;
+}
+.fees-method:hover {
+    transform: scale(1.1);
+    background: var(--alt-color);
+}
+.fees-method p {
+    font-size: 20px;
+    transition: 0.8s;
+}
+.fees-method:hover p {
+    padding-left: 40px;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .fees {
+        padding: 0 50px !important;
+    }
+    .fees h2 {
+        padding: 5px 20px !important;
+    }
+    .heading-sections::after {
+        right: -20px;
+    }
+    .heading-sections::before {
+        left: -20px;
+    }
+    .fees-text p {
+        font-size: 20px;
+    }
+    .fees-method p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .fees {
+        padding: 0 20px !important;
+    }
+    .fees-text p {
+        font-size: 15px;
+    }
+    .fees-method p {
+        font-size: 12px;
+    }
+    .fees-method {
+        margin-left: 20px;
+        padding: 10px;
+    }
+}

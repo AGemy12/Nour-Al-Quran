@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --alt-color : #1E4B6B;
+    --main-transition : 0.4s;
+}

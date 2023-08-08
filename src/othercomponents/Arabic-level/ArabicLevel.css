@@ -1,0 +1,16 @@
+.arabic-level {
+    margin: 20px 0;
+}
+.arabic-level h4 {
+    padding: 10px 20px;
+    background: var(--alt-color);
+    width: fit-content;
+    color: #fff;
+    margin: 0 0 20px 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.arabic-level p {
+    margin-left: 60px !important;
+    font-size: 19px !important;
+}

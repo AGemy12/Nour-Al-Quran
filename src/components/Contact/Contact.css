@@ -1,0 +1,61 @@
+.contact {
+    width: 40%;
+    margin: 50px auto;
+}
+.contact-head {
+    font-size: 15px !important;
+}
+@media screen and (max-width: 1200px) {
+    .contact {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .contact {
+        width: 60%;
+    }
+    .contact-head {
+        font-size: 15px !important;
+    }
+    .form-field-label,
+    .form-field-input,
+    textarea {
+        font-size: 16px;
+    }
+    .form-field-submit {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        width: 70%;
+    }
+    .contact-head {
+        font-size: 14px !important;
+    }
+    .form-field-label,
+    .form-field-input,
+    textarea {
+        font-size: 14px;
+    }
+    .form-field-submit {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact {
+        width: 100%;
+    }
+    .contact-head {
+        font-size: 10px !important;
+    }
+    .form-field-label,
+    .form-field-input,
+    textarea   {
+        font-size: 10px;
+    }
+    .form-field-submit {
+        font-size: 14px;
+    }
+
+}

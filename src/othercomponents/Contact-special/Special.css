@@ -1,0 +1,33 @@
+.quran-type-contacts {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.quran-type-contacts h5 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.quran-type-contacts span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.quran-type-contacts a {
+    color: var(--alt-color);
+    font-weight: bold;
+    margin-left: 20px;
+    transition: var(--main-transition);
+}
+
+.quran-type-contacts a:hover {
+    text-decoration: underline;
+}
+.quran-type-contacts .free-class {
+    margin: 30px 0;
+    border: 1px solid var(--alt-color);
+    text-align: left;
+}
+.quran-type-contacts .free-class-link {
+    font-size: 18px;
+}

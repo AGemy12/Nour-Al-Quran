@@ -1,0 +1,30 @@
+.intro {
+    width: 60%;
+    margin: 60px auto;
+}
+.intro video {
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 1px 4px;
+    border: 2px solid var(--alt-color);
+}
+.rh5v-Overlay_inner {
+    right: unset;
+    left: 50%;
+}
+.rh5v-Overlay_icon {
+    right: unset;
+}
+@media screen and (max-width: 992px) {
+    .intro {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .intro {
+        width: 80%;
+    }
+}

@@ -1,0 +1,10 @@
+export { default as Home } from './Home/Home';
+export { default as QuranLearning } from './QuranLearning/QuranLearning';
+export { default as ContactPage } from './Contact-page/ContactPage';
+export { default as Ijazah } from './Ijazah/Ijazah';
+export { default as About } from './About/About';
+export { default as Recitation } from './Recitation/Recitation';
+export { default as Memorization } from './Memorization/Memorization';
+export { default as Fees } from './Fees/Fees';
+export { default as Arabic } from './Arabic/Arabic';
+export { default as Islamic } from './Islamic/Islamic';

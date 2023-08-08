@@ -1,0 +1,38 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text {
+
+}
+.about-text-courses {
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 1px 4px;
+}
+.about-text-courses ul {
+    margin-left: 20px;
+}
+.about-text-courses ul li {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+    align-items: center;
+}
+.about-text-courses li svg {
+    color: green;
+    font-size: 30px;
+}
+.about-text-courses li span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .about-text-courses li svg {
+        font-size: 20px;
+    }
+    .about-text-courses li span {
+        font-size: 12px;
+    }
+}

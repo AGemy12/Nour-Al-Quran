@@ -1,0 +1,19 @@
+.message-container {
+    width: 70%;
+    margin: 0 auto;
+}
+.message-container textarea {
+    padding: 20px;
+    width: 100%;
+    transition: var(--main-transition);
+    color: #000;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 1px solid var(--alt-color);
+}
+textarea:focus {
+    outline: none;
+    background: var(--alt-color);
+    color: #fff;
+    transform: scale(1.1);
+}

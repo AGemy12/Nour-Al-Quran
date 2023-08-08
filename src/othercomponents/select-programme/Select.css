@@ -1,0 +1,58 @@
+.quran-learning-select {
+    position: relative;
+    transition: var(--main-transition);
+    margin: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 1px 4px;
+}
+.quran-learning-select:hover {
+    transform: scale(1.1);
+}
+.quran-learning-select-image img {
+    width: 100%;
+}
+.quran-learning-select-title {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    transition: var(--main-transition);
+}
+.quran-learning-select-title a {
+    color: #000;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    transition: var(--main-transition);
+    border: 2px solid var(--alt-color);
+    padding: 5px 15px;
+}
+.quran-learning-select-title a:hover {
+    text-decoration: underline;
+    background: var(--alt-color);
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .quran-learning-content {
+        margin: 0 100px !important;
+    }
+    .quran-learning-select-title a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-width: 1px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .quran-learning-content {
+            margin: 0 20px !important;
+        }
+    .quran-learning-select {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .quran-learning-select-title a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-width: 1px;
+    }
+}

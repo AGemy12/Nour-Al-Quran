@@ -1,0 +1,99 @@
+.courses {
+    background: #ecf0f2;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.courses-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses-type {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.courses-type-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.courses-type-image img {
+    width: 100%;
+    margin: 0 auto;
+    transition: var(--main-transition);
+}
+.courses-type:hover img {
+    transform: scale(1.2);
+} 
+.course-link {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+.course-link a {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 20px;
+    transition: var(--main-transition);
+}
+.course-link a:hover {
+    color: var(--alt-color);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .courses {
+        padding: 50px 80px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .courses {
+        padding: 50px !important;
+    }
+    .courses-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses-type {
+        border-right: none !important;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .courses {
+        padding: 20px 50px !important;
+    }
+    .courses-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses-type {
+        border-right: none !important;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .courses {
+        padding: 20px !important;
+    }
+    .courses-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses-type {
+        border-right: none !important;
+        margin: 10px;
+        padding: 10px;
+    }
+    .courses-type-image {
+        width: 100%;
+    }
+    .course-link a {
+        font-size: 20px;
+    }
+}

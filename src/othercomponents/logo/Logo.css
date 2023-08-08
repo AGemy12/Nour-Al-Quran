@@ -1,0 +1,9 @@
+.navbar-logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.navbar-logo-link-img {
+    width: 100%;
+}

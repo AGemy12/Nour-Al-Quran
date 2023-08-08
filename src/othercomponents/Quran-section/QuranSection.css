@@ -1,0 +1,33 @@
+
+.quran-type-image {
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+.quran-type-image img {
+    width: 100%;
+}
+.quran-type-description p {
+    font-size: 20px;
+    line-height: 2;
+    margin: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+    .quran-type {
+        margin: 50px 20px !important;
+    }
+    .quran-type-description p {
+        font-size: 15px;
+    }
+    .learn-in-ijazah {
+        margin: 0 20px !important;
+    }
+    .learn-in-ijazah h3 {
+        font-size: 17px;
+    }
+    .learn-in-ijazah li {
+        font-size: 14px !important;
+    }
+}

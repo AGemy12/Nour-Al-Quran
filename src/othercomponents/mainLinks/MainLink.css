@@ -1,0 +1,11 @@
+
+.navbar-links-ul-li-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0 0 0 / 70%);
+    transition: var(--main-transition);
+    display: block;
+    margin-right: 5px;
+}
+

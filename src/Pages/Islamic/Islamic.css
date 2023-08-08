@@ -1,0 +1,51 @@
+
+.islamic-image {
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+.islamic-image img {
+    width: 100%;
+}
+.islamic-text {
+    padding:  0 100px;
+}
+.islamic-text p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.islamic-text p span {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .islamic {
+        margin: 0 100px !important;
+    }
+    .islamic-text {
+        padding: 0 50px;
+    }
+    .islamic-text p span {
+        font-size: 20px;
+    }
+    .islamic-text p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .islamic {
+        margin: 0 20px !important;
+    }
+    .islamic-text {
+        padding: 0 20px;
+    }
+    .islamic-text p span {
+        font-size: 15px;
+    }
+    .islamic-text p {
+        font-size: 12px;
+    }
+}
